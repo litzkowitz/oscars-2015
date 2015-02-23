@@ -16,3 +16,4 @@ Here's where you come in:
 * All .nominee divs should have a rollover state with a transition, but it can be different than it is now (doesn't have to be an image).
 * The nominees should be in a readable grid with consistent styles.
 * The movie poster images for best picture should be used, but can be used differently than they are now.
+* Feel free to ditch the animated gifs. I know, they're horrible.
