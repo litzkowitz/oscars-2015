@@ -12,7 +12,7 @@ Here's where you come in:
 
 ## Constraints
 
-* You can change the order of HTML, but all the content should remain.
+* You can change the order of HTML and change tags, but all the content should remain.
 * All .nominee divs should have a rollover state with a transition, but it can be different than it is now (doesn't have to be an image).
 * The nominees should be in a readable grid with consistent styles.
 * The movie poster images for best picture should be used, but can be used differently than they are now.
