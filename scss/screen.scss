@@ -1,66 +1,118 @@
 body {
-    background: red url(/images/background.jpg) 0 0 repeat;
+    background: black;
+    color: white;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin: 0 auto;
 }
 
 .content {
     width: 90%;
-    background: fade-out(#fff, .2);
-    color: #888;
+    margin-left: 5%;
+
+        h5 {
+            margin-top: -15px;
+            color: #e4da37;
+        }
+
+        p {
+            margin-bottom: 5px;
+        }
+
+        .special-link {
+            margin: 0px;
+            font-size: 12px;
+            color: #e4da37;
+        }
+
+        .special-link:hover {
+            color: white;
+        }
+
+        h4 {
+            margin-bottom: -10px;
+        }
 }
 
 .page-header {
-    border: 3px double #000;
-}
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    text-align: center;
 
-.special-link {
-    color: orange;
+        img {
+            display: none;
+        }
+
+        h1 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: white;
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+
+        a {
+            margin: 5px;
+            padding: 5px;
+
+        }
 }
 
 .nominee-group {
-    border: 1px solid green;
+    display: inline-block;
+    width: 48%;
+    border: 5px solid green;
 
     h4 {
         font-size: 13px;
     }
+
+      img {
+        float: left;
+        width: 250px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white
 }
 
 .best-picture-link {
-    color: red;
-
     &:hover {
-        font-size: 20px;
+        color: #e4da37;
+        border: 1px dashed #e4da37;
     }
 }
 
 .best-actor-link {
-    color: blue;
-
     &:hover {
-        font-style: italic;
+        color: #e4da37;
+        border: 1px dashed #e4da37;
     }
 }
 
 .best-actress-link {
-    color: #ff9898;
-
     &:hover {
-        color: purple;
+        color: #e4da37;
+        border: 1px dashed #e4da37;
     }
 }
 
 .best-director-link {
-    color: green;
-
     &:hover {
-        font-style: italic;
-        color: orange;
-        font-size: 20px;
+        color: #e4da37;
+        border: 1px dashed #e4da37;
     }
 }
 
 .best-picture {
-    font-family: helvetica, arial, sans-serif;
+    margin-top: 0px;
+    font-weight: 300;
 }
+
 
 .best-actor {
     border: 2px solid gray;

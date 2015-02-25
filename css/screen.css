@@ -1,1 +1,175 @@
-body{background:red url(/images/background.jpg) 0 0 repeat}.content{width:90%;background:rgba(255,255,255,0.8);color:#888}.page-header{border:3px double #000}.special-link{color:orange}.nominee-group{border:1px solid green}.nominee-group h4{font-size:13px}.best-picture-link{color:red}.best-picture-link:hover{font-size:20px}.best-actor-link{color:blue}.best-actor-link:hover{font-style:italic}.best-actress-link{color:#ff9898}.best-actress-link:hover{color:purple}.best-director-link{color:green}.best-director-link:hover{font-style:italic;color:orange;font-size:20px}.best-picture{font-family:helvetica,arial,sans-serif}.best-actor{border:2px solid gray;width:43%}.best-actor h4{color:purple}.best-actress h4{color:#ff5431;font-size:18px}.best-director{width:71%;margin:auto;border:4px solid #21f891;color:#f1f1f1;font-family:georgia,"times new roman",serif}.best-director h4{color:#ff9898;font-size:22px}.best-director p{color:#f1f1f1}.nominee{float:left;margin:5px;padding:5px;border:1px solid #999}.boyhood:hover{background:url(/images/boyhood-poster.jpg) 0 0 no-repeat;background-size:100% 100%}.american-sniper{background:url(/images/american-sniper.jpg) 0 0 no-repeat;background-size:100% 100%}.american-sniper:hover{background:none}.budapest-hotel:hover{background:url(/images/budapest-poster.jpg) 0 0 no-repeat;background-size:100% 100%}.birdman:hover{background:url(/images/birdman-poster.jpg) 0 0 no-repeat;background-size:100% 100%}.selma:hover{background:url(/images/selma-poster.jpg) 0 0 no-repeat;background-size:100% 100%}.imitation-game:hover{background:url(/images/selma-poster.jpg) 0 0 no-repeat;background-size:100% 100%}.theory-of-everything:hover{background:url(/images/theory-of-everything-poster.jpg) 0 0 no-repeat;background-size:100% 100%}.whiplash:hover{background:url(/images/whiplash-poster.jpg) 0 0 no-repeat;background-size:100% 100%}
+body {
+  background: black;
+  color: white;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+.content {
+  width: 90%;
+  margin-left: 5%;
+}
+.content h5 {
+  margin-top: -15px;
+  color: #e4da37;
+}
+.content p {
+  margin-bottom: 5px;
+}
+.content .special-link {
+  margin: 0px;
+  font-size: 12px;
+  color: #e4da37;
+}
+.content .special-link:hover {
+  color: white;
+}
+.content h4 {
+  margin-bottom: -10px;
+}
+
+.page-header {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.page-header img {
+  display: none;
+}
+.page-header h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+.page-header a {
+  margin: 5px;
+  padding: 5px;
+}
+
+.nominee-group {
+  display: inline-block;
+  width: 48%;
+  border: 5px solid green;
+}
+.nominee-group h4 {
+  font-size: 13px;
+}
+.nominee-group img {
+  float: left;
+  width: 250px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.best-picture-link:hover {
+  color: #e4da37;
+  border: 1px dashed #e4da37;
+}
+
+.best-actor-link:hover {
+  color: #e4da37;
+  border: 1px dashed #e4da37;
+}
+
+.best-actress-link:hover {
+  color: #e4da37;
+  border: 1px dashed #e4da37;
+}
+
+.best-director-link:hover {
+  color: #e4da37;
+  border: 1px dashed #e4da37;
+}
+
+.best-picture {
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+.best-actor {
+  border: 2px solid gray;
+  width: 43%;
+}
+.best-actor h4 {
+  color: purple;
+}
+
+.best-actress h4 {
+  color: #ff5431;
+  font-size: 18px;
+}
+
+.best-director {
+  width: 71%;
+  margin: auto;
+  border: 4px solid #21f891;
+  color: #f1f1f1;
+  font-family: georgia, "times new roman", serif;
+}
+.best-director h4 {
+  color: #ff9898;
+  font-size: 22px;
+}
+.best-director p {
+  color: #f1f1f1;
+}
+
+.nominee {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #999;
+}
+
+.boyhood:hover {
+  background: url(/images/boyhood-poster.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.american-sniper {
+  background: url(/images/american-sniper.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.american-sniper:hover {
+  background: none;
+}
+
+.budapest-hotel:hover {
+  background: url(/images/budapest-poster.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.birdman:hover {
+  background: url(/images/birdman-poster.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.selma:hover {
+  background: url(/images/selma-poster.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.imitation-game:hover {
+  background: url(/images/selma-poster.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.theory-of-everything:hover {
+  background: url(/images/theory-of-everything-poster.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.whiplash:hover {
+  background: url(/images/whiplash-poster.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+/*# sourceMappingURL=screen.css.map */
