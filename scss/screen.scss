@@ -8,32 +8,75 @@ body {
     margin: 0 auto;
 }
 
+.best-picture-link {
+    &:hover {
+        color: #e4da37;
+        border: 1px dotted #e4da37;
+    }
+}
+
+.best-actor-link {
+    &:hover {
+        color: #e4da37;
+        border: 1px dotted #e4da37;
+    }
+}
+
+.best-actress-link {
+    &:hover {
+        color: #e4da37;
+        border: 1px dotted #e4da37;
+    }
+}
+
+.best-director-link {
+    &:hover {
+        color: #e4da37;
+        border: 1px dotted #e4da37;
+    }
+}
+
 .content {
     width: 90%;
     margin-left: 5%;
 
         h5 {
             margin-top: -15px;
-            color: #e4da37;
+            color: #fff;
         }
 
         p {
             margin-bottom: 5px;
         }
 
-        .special-link {
+        .special-link { 
             margin: 0px;
             font-size: 12px;
-            color: #e4da37;
+            color: #fff;
         }
 
         .special-link:hover {
-            color: white;
+            color: #e4da37;
+            border-bottom: 1px dotted #e4da37;
         }
 
         h4 {
             margin-bottom: -10px;
         }
+}
+
+.article {
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -3px;
+    text-align: center;
+
+    h3 {
+        color: #e4da37;
+    }
 }
 
 .page-header {
@@ -56,143 +99,109 @@ body {
         a {
             margin: 5px;
             padding: 5px;
-
         }
 }
 
+
 .nominee-group {
-    display: inline-block;
-    width: 48%;
-    border: 5px solid green;
+    padding-top: -20px;
 
     h4 {
-        font-size: 13px;
+        font-size: 1.5rem;
+        color: #e4da37
     }
 
       img {
-        float: left;
-        width: 250px;
+        width: 100%;
     }
+
 }
 
-a {
+a{
     text-decoration: none;
     color: white
 }
 
-.best-picture-link {
-    &:hover {
-        color: #e4da37;
-        border: 1px dashed #e4da37;
-    }
-}
-
-.best-actor-link {
-    &:hover {
-        color: #e4da37;
-        border: 1px dashed #e4da37;
-    }
-}
-
-.best-actress-link {
-    &:hover {
-        color: #e4da37;
-        border: 1px dashed #e4da37;
-    }
-}
-
-.best-director-link {
-    &:hover {
-        color: #e4da37;
-        border: 1px dashed #e4da37;
-    }
-}
-
-.best-picture {
-    margin-top: 0px;
-    font-weight: 300;
-}
-
-
-.best-actor {
-    border: 2px solid gray;
-    width: 43%;
-    h4 {
-        color: purple;
-    }
-}
-
-.best-actress {
-    h4 {
-        color: #ff5431;
-        font-size: 18px;
-    }
-}
-
-.best-director {
-    width: 71%;
-    margin: auto;
-    border: 4px solid #21f891;
-    color: #f1f1f1;
-    font-family: georgia, "times new roman", serif;
-
-    h4 {
-        color: #ff9898;
-        font-size: 22px;
+.inactive {
+    h4{
+        display: none;
     }
 
     p {
-        color: #f1f1f1;
+        display: none;
+    }
+}
+
+.active {
+    background: #fff;
+    color: #000;
+    width: 100%;
+    height: 150px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: block;
+
+        #img {
+            display: none;
+        }
+
+        h4 {
+            text-align: center;
+            font-weight: 400;
+
+        }
+
+        p{
+            text-align: center;
+        }
+}
+
+.best-picture {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 300;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+
+    h4{
+        margin-top: 20px;
+        margin-bottom: 30px;
+
     }
 }
 
 .nominee {
-    float: left;
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #999;
+    padding-top: -20px;
 }
 
-.boyhood:hover {
-    background: url(/images/boyhood-poster.jpg) 0 0 no-repeat;
-    background-size: 100% 100%;
-}
-
-.american-sniper {
-    background: url(/images/american-sniper.jpg) 0 0 no-repeat;
-    background-size: 100% 100%;
-
-    &:hover {
-        background: none;
+.best-actor {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+       
+        h4{
+            margin-top: 20px;
+            margin-bottom: 30px;
     }
 }
 
-.budapest-hotel:hover {
-    background: url(/images/budapest-poster.jpg) 0 0 no-repeat;
-    background-size: 100% 100%;
+
+.best-actress {
+    text-align: center;
+    margin-bottom: 15px;
+       
+        h4{
+            margin-top: 20px;
+            margin-bottom: 30px;
+    }
 }
 
-.birdman:hover {
-    background: url(/images/birdman-poster.jpg) 0 0 no-repeat;
-    background-size: 100% 100%;
-}
+.best-director {  
+    text-align: center; 
+    border-top: 1px solid #fff;
 
-.selma:hover {
-    background: url(/images/selma-poster.jpg) 0 0 no-repeat;
-    background-size: 100% 100%;
-}
-
-.imitation-game:hover {
-    background: url(/images/selma-poster.jpg) 0 0 no-repeat;
-    background-size: 100% 100%;
-}
-
-.theory-of-everything:hover {
-    background: url(/images/theory-of-everything-poster.jpg) 0 0 no-repeat;
-    background-size: 100% 100%;
-}
-
-.whiplash:hover {
-    background: url(/images/whiplash-poster.jpg) 0 0 no-repeat;
-    background-size: 100% 100%;
+        h4{
+            margin-top: 15px;
+            margin-bottom: 30px;
+    }
 }
