@@ -53,9 +53,8 @@ body {
 }
 
 .article {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   padding-top: 5px;
-  padding-bottom: 5px;
   padding-left: 50px;
   padding-right: 50px;
   margin-top: -3px;
@@ -77,12 +76,25 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: white;
-  font-size: 2rem;
+  font-size: 2.5rem;
   letter-spacing: 1px;
 }
 .page-header a {
   margin: 5px;
   padding: 5px;
+}
+
+.default {
+  display: none;
+}
+.default p {
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #e4da37;
+}
+
+.line p {
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #e4da37;
 }
 
 .nominee-group {
