@@ -8,6 +8,26 @@ body {
   margin: 0 auto;
 }
 
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background: #000;
+  padding: 10px;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
 .best-picture-link:hover {
   color: #e4da37;
   border: 1px dotted #e4da37;
@@ -30,6 +50,7 @@ body {
 
 .content {
   width: 90%;
+  margin-top: 115px;
   margin-left: 5%;
 }
 .content h5 {
@@ -58,7 +79,6 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   margin-top: -3px;
-  text-align: center;
 }
 .article h3 {
   color: #e4da37;
@@ -84,17 +104,144 @@ body {
   padding: 5px;
 }
 
-.default {
+.american-sniper p {
   display: none;
 }
-.default p {
-  padding-bottom: 5px;
-  border-bottom: 1px dotted #e4da37;
+
+.american-sniper h4 {
+  display: none;
 }
 
-.line p {
-  padding-bottom: 5px;
-  border-bottom: 1px dotted #e4da37;
+.american-sniper:hover h4 {
+  display: block;
+  position: relative;
+}
+.american-sniper:hover p {
+  display: block;
+  position: relative;
+}
+
+.birdman p {
+  display: none;
+}
+
+.birdman h4 {
+  display: none;
+}
+
+.birdman:hover h4 {
+  display: block;
+  position: relative;
+}
+.birdman:hover p {
+  display: block;
+  position: relative;
+}
+
+.boyhood p {
+  display: none;
+}
+
+.boyhood h4 {
+  display: none;
+}
+
+.boyhood:hover h4 {
+  display: block;
+  position: relative;
+}
+.boyhood:hover p {
+  display: block;
+  position: relative;
+}
+
+.budapest-hotel p {
+  display: none;
+}
+
+.budapest-hotel h4 {
+  display: none;
+}
+
+.budapest-hotel:hover h4 {
+  display: block;
+  position: relative;
+}
+.budapest-hotel:hover p {
+  display: block;
+  position: relative;
+}
+
+.imitation-game p {
+  display: none;
+}
+
+.imitation-game h4 {
+  display: none;
+}
+
+.imitation-game:hover h4 {
+  display: block;
+  position: relative;
+}
+.imitation-game:hover p {
+  display: block;
+  position: relative;
+}
+
+.selma p {
+  display: none;
+}
+
+.selma h4 {
+  display: none;
+}
+
+.selma:hover h4 {
+  display: block;
+  position: relative;
+}
+.selma:hover p {
+  display: block;
+  position: relative;
+}
+
+.theory-of-everything p {
+  display: none;
+}
+
+.theory-of-everything h4 {
+  display: none;
+}
+
+.theory-of-everything:hover h4 {
+  display: block;
+  position: relative;
+}
+.theory-of-everything:hover p {
+  display: block;
+  position: relative;
+}
+
+.whiplash p {
+  display: none;
+}
+
+.whiplash h4 {
+  display: none;
+}
+
+.whiplash:hover h4 {
+  display: block;
+  position: relative;
+}
+.whiplash:hover p {
+  display: block;
+  position: relative;
+}
+
+.nominee {
+  margin-top: 50px;
 }
 
 .nominee-group {
@@ -113,33 +260,6 @@ a {
   color: white;
 }
 
-.inactive h4 {
-  display: none;
-}
-.inactive p {
-  display: none;
-}
-
-.active {
-  background: #fff;
-  color: #000;
-  width: 100%;
-  height: 150px;
-  padding-top: 50px;
-  padding-bottom: 25px;
-  display: block;
-}
-.active #img {
-  display: none;
-}
-.active h4 {
-  text-align: center;
-  font-weight: 400;
-}
-.active p {
-  text-align: center;
-}
-
 .best-picture {
   text-align: center;
   margin-top: 10px;
@@ -152,8 +272,9 @@ a {
   margin-bottom: 30px;
 }
 
-.nominee {
-  padding-top: -20px;
+.name:hover {
+  color: #e4da37;
+  border: 1px dotted #e4da37;
 }
 
 .best-actor {
