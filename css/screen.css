@@ -52,6 +52,7 @@ li {
   width: 90%;
   margin-top: 115px;
   margin-left: 5%;
+  margin-bottom: 75px;
 }
 .content h5 {
   margin-top: -15px;
@@ -105,6 +106,7 @@ li {
 }
 
 .best-picture {
+  margin-top: 20px;
   text-align: center;
   font-weight: 300;
   padding-bottom: 50px;
@@ -112,9 +114,13 @@ li {
   border-bottom: 1px solid #fff;
 }
 .best-picture h4 {
-  padding-top: 50px;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  padding-top: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.best-picture p {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .american-sniper p {
@@ -262,6 +268,7 @@ li {
 }
 .nominee-group img {
   width: 100%;
+  padding-top: 20px;
 }
 
 a {
@@ -275,37 +282,33 @@ a {
 }
 
 .best-actor {
+  margin-top: 20px;
   text-align: center;
   padding-bottom: 50px;
   border-bottom: 1px solid #fff;
 }
 .best-actor h4 {
-  padding-top: 70px;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .best-actress {
+  margin-top: 20px;
   text-align: center;
   margin-bottom: 15px;
   padding-bottom: 50px;
 }
 .best-actress h4 {
-  padding-top: 10px;
-  margin-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .best-director {
+  margin-top: 20px;
   text-align: center;
   padding-bottom: 50px;
   border-top: 1px solid #fff;
 }
 .best-director h4 {
-  padding-top: 70px;
-  margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=screen.css.map */
